@@ -91,7 +91,8 @@ class Detect(nn.Module):
 
 class Model(nn.Module):
     # YOLOv5 model
-    def __init__(self, cfg='yolov5s.yaml', ch=3, nc=None, anchors=None):  # model, input channels, number of classes
+    # def __init__(self, cfg='yolov5s.yaml', ch=3, nc=None, anchors=None):  # model, input channels, number of classes
+    def __init__(self, cfg='/home/ubuntu/sajeev-m6i-xlarge/projects/nongit/frameworks.ai.edgecsp.3dat-performance-coaching-master/container/core/object_detection/yolov5/models/yolov5s.yaml', ch=3, nc=None, anchors=None):  # model, input channels, number of classes
         super().__init__()
         if isinstance(cfg, dict):
             self.yaml = cfg  # model dict

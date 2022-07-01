@@ -61,6 +61,9 @@ YOLOv5 🚀 is a family of object detection architectures and models pretrained 
 
 ## <div align="center">Documentation</div>
 
+This repo has been modified to export a custom yolov5s model to onnx file with inp size 384x640 (HxW).
+Changes made: ```export.py``` and ```models/yolo.py```
+
 See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
 
 ## <div align="center">Quick Start Examples</div>
